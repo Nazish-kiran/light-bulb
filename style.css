@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #222;
+}
+.on{
+  background: radial-gradient(#555,#111);
+}
+.wire {
+  background-color: black;
+  width: 4px;
+  height: 60vh;
+}
+.bulb-icon{
+  font-size:4rem;
+  rotate: 180deg;
+  translate: -30px;
+  color: grey;
+}
+.onBulb{
+  color: #ffd700;
+}
+.switch{
+  background-color: #ccc;
+  position: absolute;
+  right: 7%;
+  top: 6.5%;
+  font-size: 1.6rem;
+  height: 2.7rem;
+  width: 2.7rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  padding-top: 8px;
+  box-shadow: grey 0px 10px 15px -5px;
+  cursor: pointer;
+}
+.onSwitch{
+  background-color: #4caf50;
+}
